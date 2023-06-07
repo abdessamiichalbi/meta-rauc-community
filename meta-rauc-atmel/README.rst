@@ -1,4 +1,4 @@
-This README file contains information on the contents of the meta-rauc-raspberrypi layer.
+This README file contains information on the contents of the meta-rauc-atmel layer.
 
 Please see the corresponding sections below for details.
 
@@ -7,7 +7,7 @@ Dependencies
 
 * URI: git://git.openembedded.org/openembedded-core
 * URI: https://github.com/rauc/meta-rauc.git
-* URI: https://git.yoctoproject.org/git/meta-raspberrypi
+* URI: https://git.yoctoproject.org/git/meta-atmel
 
 Patches
 =======
@@ -15,7 +15,7 @@ Patches
 Please submit any patches against the meta-rauc-raspberrypi layer via GitHub
 pull request on https://github.com/rauc/meta-rauc-community.
 
-Maintainer: Leon Anavi <leon.anavi@konsulko.com>
+Maintainer: Abdessamii Chalbi
 
 Disclaimer
 ==========
@@ -28,10 +28,10 @@ a much different RAUC/bootloader/system configuration.
 Also note that this layer is for demo purpose only and does not care about
 migratability between different layer revision.
 
-I. Adding the meta-rauc-raspberrypi layer to your build
+I. Adding the meta-rauc-atmel layer to your build
 =======================================================
 
-Run 'bitbake-layers add-layer meta-rauc-raspberrypi'
+Run 'bitbake-layers add-layer meta-rauc-atmel'
 
 II. Build The Demo System
 =========================

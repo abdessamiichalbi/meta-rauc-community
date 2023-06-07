@@ -148,6 +148,7 @@ VIRTUAL-RUNTIME_initscripts = ""
 IMAGE_FSTYPES = "wic.bz2"
 SDIMG_ROOTFS_TYPE="ext4"
 WKS_FILE = "sdimage.wks"
+DISTRO_FEATURES:append = " rauc"
 
 DL_DIR ?= "\${BSPDIR}/downloads/"
 SSTATE_DIR ?= "\${BSPDIR}/sstate-cache/"
