@@ -147,8 +147,9 @@ VIRTUAL-RUNTIME_initscripts = ""
 
 IMAGE_FSTYPES = "wic.bz2"
 SDIMG_ROOTFS_TYPE="ext4"
-WKS_FILE = "sdimage.wks"
+WKS_FILE:sam9x60ek-sd = "sdimage-A-B.wks"
 DISTRO_FEATURES:append = " rauc"
+IMAGE_INSTALL:append = " u-boot-fw-utils"
 
 DL_DIR ?= "\${BSPDIR}/downloads/"
 SSTATE_DIR ?= "\${BSPDIR}/sstate-cache/"
